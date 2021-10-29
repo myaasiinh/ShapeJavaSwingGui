@@ -1,4 +1,4 @@
-package myaasiinh.guishape;
+package com.myaasiinh.guishape;
 
 import javax.swing.*;
 import java.awt.*;
@@ -21,7 +21,7 @@ public class shape extends JFrame {
     }
 
     public static void main(String args[]) {
-        myaasiinh.guishape.shape frame = new shape();
+        com.myaasiinh.guishape.shape frame = new shape();
         frame.setBounds(30, 30, 800, 600);
         frame.setVisible(true);
 
